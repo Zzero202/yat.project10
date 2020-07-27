@@ -1,0 +1,274 @@
+*{
+    padding:0;
+    margin:0;  
+   
+}
+body{
+    width:100%;
+}
+.container-fluid{
+    padding:0 !important;
+    margin:0 !important;
+    
+}
+header{
+    background:url(../images/bg-masthead.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:900px;
+    position: relative;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    right: 0;
+    background-color: #ffc107;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+
+  .sidenav .list {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+ 
+  .sidenav .list:hover {
+    color: #f1f1f1;
+  }
+  
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .span-nav{
+      position: absolute;
+      right:25px;
+  }
+  .span-nav i{
+      position: fixed;
+      right:0;
+      top:20px;
+      padding:10px;
+      background:rgba(0,0,0,0.5);
+      color:#fff;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav .list {font-size: 18px;}
+  }
+  .background-title{
+      text-align: center;
+  }
+  .background-title h1{
+      text-transform: capitalize;
+      font-size:60px;
+      font-family: arial;
+      font-weight: bolder;
+      text-align:center;
+      padding-top:550px;
+  }
+  .background-title p{
+      text-transform: capitalize;
+      text-align:center;
+  }
+   .bt1{
+      outline:none;
+      border:none;
+      color:#fff;
+      background:#4759fd;
+      padding:10px;
+      text-align:center;
+      box-shadow:1px 1px 2px black;
+      border-radius:10px;
+      transition: .5s;
+      text-transform: capitalize;
+      font-weight: bold;
+  }
+   .bt1:hover{
+      background:#fff;
+      color:#4759fd
+  }
+  .stylishportfolio{
+      display:flex;
+      flex-direction:column;
+      justify-content: space-around;
+      text-align:center;
+      text-transform: capitalize;
+      align-items: center;
+      margin-top:50px;
+      margin-bottom:50px;
+  }
+.what-we-offer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color:#3a78ffc5;
+    margin-top:100px; 
+}
+  .service{
+    color:#ffc107;
+    margin-top:10px;
+}
+.what-we-offer  h2{
+    text-transform: capitalize;
+    color:#fff;
+}
+.what-we-offer i{
+    background:white;
+    color:#3a78ffc5;
+    border-radius:50%;
+    padding:50px;
+    font-size:26px;
+    margin-bottom:10px;
+}
+.what-we-offer .icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color:#fff;
+    text-transform: capitalize;
+}
+@media screen and (max-width:1224px){
+    .what-we-offer .icons{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color:#fff;
+        text-transform: capitalize;
+        text-align:center;
+        
+    }
+    .what-we-offer{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-color:#3a78ffc5;
+        margin-top:50px; 
+    }
+}
+.next-website{
+    background:url(../images/bg-callout.jpg);
+    background-size:cover;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.images-text{
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    margin-bottom:10px;
+}
+.image1-text{
+    background:linear-gradient(to right,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/portfolio-1.jpg);
+    width:500px;
+    height:300px;
+    background-size:100% 100%;
+}
+.image2-text{
+    background:linear-gradient(to right,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/portfolio-2.jpg);
+    width:500px;
+    height:300px;
+    background-size:100% 100%;
+}
+.image3-text{
+    background:linear-gradient(to right,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/portfolio-3.jpg);
+    width:500px;
+    height:300px;
+    background-size:100% 100%;
+    
+}
+.image4-text{
+    background:linear-gradient(to right,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/portfolio-4.jpg);
+   width:500px;
+   height:300px;
+   background-size:100% 100%;
+}
+.images-text h5{
+    margin-top:150px;
+    font-size:28px;
+}
+.images-text p{
+    max-width:400px;
+    font-style: italic;
+}
+@media screen and (max-width:500px){
+    .images-text{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:#fff;
+    }
+}
+.buttons {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:200px;
+    background-color:#027055;
+   
+}
+.buttons-pos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  .bt2{
+      background:#027055;
+      color:#fff;
+      border-radius: 50%;
+      padding:20px;
+  }
